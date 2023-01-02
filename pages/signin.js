@@ -57,11 +57,11 @@ const signin = () => {
   };
 
   return (
-    <div className={styles.outer}>
-      <div className={styles.content}>
+    <div classNameName={styles.outer}>
+      <div classNameName={styles.content}>
         <Navlogo />
-        <div className={styles.container}>
-          <div className={styles.form}>
+        <div classNameName={styles.container}>
+          <div classNameName={styles.form}>
             <form>
               <h1>Sign In</h1>
               <input
@@ -72,7 +72,7 @@ const signin = () => {
                   setemailerr("");
                 }}
               />
-              {emailerr && <p className={styles.error}>{emailerr}</p>}
+              {emailerr && <p classNameName={styles.error}>{emailerr}</p>}
               <input
                 placeholder="Password"
                 type="password"
@@ -82,9 +82,9 @@ const signin = () => {
                   setpasswderr("");
                 }}
               />
-              {passwderr && <p className={styles.error}>{passwderr}</p>}
+              {passwderr && <p classNameName={styles.error}>{passwderr}</p>}
               <button onClick={handleSignin}>Sign In</button>
-              <div className={styles.forms1}>
+              <div classNameName={styles.forms1}>
                 <div>
                   <input
                     type="checkbox"
@@ -99,7 +99,7 @@ const signin = () => {
               </div>
             </form>
 
-            <div className={styles.forms2}>
+            <div classNameName={styles.forms2}>
               <h1>
                 New to Netflix?{" "}
                 <Link href="/signup/regform">
