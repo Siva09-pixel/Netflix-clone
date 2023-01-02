@@ -1,6 +1,6 @@
 import styles from "./MovieSlider.module.css";
 import React from "react";
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 const MovieSlider = ({movies, contid}) => {
   const baseUrl = "https://image.tmdb.org/t/p/original/";

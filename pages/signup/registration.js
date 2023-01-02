@@ -1,7 +1,7 @@
 import React from "react";
 import SignupNav from "./SignupNav";
 import styles from "./Signuppage.module.css";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import devices from "../../Netflix-images/lap_pc_mobile.png";
 import Link from "next/dist/client/link";
 

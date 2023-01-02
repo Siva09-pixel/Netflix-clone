@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./NavBar.module.css";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import logo from "../Netflix-images/logo.png";
 import Link from "next/link";
 

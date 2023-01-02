@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import Section1 from "../components/page1/Section1";
 import Section2left from "../components/page1/Section2left";
 import Section2right from "../components/page1/Section2right";
